@@ -1,124 +1,309 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta name="google-site-verification" content="JGdWSgAtP2NPsCnCouxekhNxLkCxyyCeCj4Smsq7Xj8" />
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DMV Guides for Every U.S. State 2026 | dmvverify.com</title>
-<meta name="description" content="Unofficial, plain-English DMV guides for all 50 states + DC: driver&#x27;s license renewal, REAL ID, and replacement steps, fees, and official links.">
+<meta name="description" content="Unofficial, plain-English DMV guides for all 50 states + DC: driver's license renewal, REAL ID, and replacement steps, fees, and official links.">
 <link rel="canonical" href="https://dmvverify.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap');
 :root{
-  --ink:#0a1b3d;--ink-soft:#4a5a7a;--bg:#f5f8ff;--surface:#ffffff;
-  --blue:#1d4ed8;--blue-deep:#0a2472;--blue-bright:#3b82f6;--blue-soft:#e8f0ff;--blue-line:#d4e2fb;
-  --official:#0a7d5a;--official-bg:#e6f7f0;--official-line:#b6e4d2;
-  --warn:#9a6b00;--warn-bg:#fff7e6;--warn-line:#f0dca8;
-  --rule:#e2eaf7;
-  --shadow:0 1px 2px rgba(10,27,61,.04),0 10px 30px -16px rgba(29,78,216,.28);
-  --shadow-lg:0 20px 60px -24px rgba(29,78,216,.4);
-  --display:"Sora",system-ui,sans-serif;
-  --body:"Inter",system-ui,sans-serif;
+  --navy:#0a1628;--navy-2:#0f2044;--navy-3:#1a3260;
+  --blue:#1d4ed8;--blue-bright:#3b82f6;--blue-soft:#e8f0ff;--blue-line:#c7d9fc;
+  --amber:#f59e0b;--amber-dark:#d97706;
+  --surface:#ffffff;--bg:#f5f8ff;--bg-2:#edf2ff;
+  --ink:#0a1628;--ink-2:#2d4270;--ink-soft:#5a6e9a;--rule:#dde5f7;
+  --sh:0 4px 24px -8px rgba(29,78,216,.18);--sh-lg:0 20px 60px -16px rgba(29,78,216,.32);
+  --display:"Sora",sans-serif;--body:"DM Sans",sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:var(--blue);text-underline-offset:2px}
-.wrap{max-width:780px;margin:0 auto;padding:0 22px}
-.gov-bar{background:var(--blue-deep);color:#dbe7ff;font-size:.8rem;text-align:center;padding:9px 14px;letter-spacing:.01em}
+.gov-bar{background:var(--navy);color:#94a8cc;font-size:.78rem;text-align:center;padding:8px 14px;letter-spacing:.01em}
 .gov-bar strong{color:#fff}
-.sitenav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--rule)}
-.sitenav .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;flex-wrap:wrap;gap:8px}
-.brand{font-family:var(--display);font-weight:800;font-size:1.2rem;color:var(--ink);text-decoration:none;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
-.brand .dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--blue-bright),var(--blue-deep));display:inline-block}
-.brand span{color:var(--blue)}
-.sitenav nav a{font-size:.85rem;font-weight:500;color:var(--ink-soft);text-decoration:none;margin-left:18px}
-.sitenav nav a:hover{color:var(--blue)}
-header.masthead{padding:46px 0 30px;margin-bottom:8px;position:relative}
-.kicker{display:inline-block;text-transform:uppercase;letter-spacing:.14em;font-size:.68rem;color:var(--blue);font-weight:700;margin-bottom:18px;background:var(--blue-soft);padding:6px 12px;border-radius:999px;border:1px solid var(--blue-line)}
-h1{font-family:var(--display);font-weight:800;line-height:1.08;font-size:clamp(2rem,5.5vw,3.1rem);letter-spacing:-.03em;background:linear-gradient(135deg,var(--ink) 30%,var(--blue) 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.dek{font-size:1.14rem;color:var(--ink-soft);margin-top:16px;max-width:62ch}
-.meta{font-size:.8rem;color:var(--ink-soft);margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
-.meta span{background:var(--surface);border:1px solid var(--rule);padding:7px 13px;border-radius:999px}
-.meta b{color:var(--ink);font-weight:600}
-.official{background:var(--official-bg);border:1px solid var(--official-line);border-radius:16px;padding:20px 22px;margin:28px 0;box-shadow:var(--shadow)}
-.official .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--official);font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:7px}
-.official .lbl::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--official)}
-.official p{font-size:.96rem;color:#0a5a42}
-.official a{font-weight:700;color:var(--official)}
-.warn{background:var(--warn-bg);border:1px solid var(--warn-line);border-left:4px solid #e0a800;border-radius:14px;padding:16px 20px;margin:22px 0;font-size:.92rem;color:var(--warn)}
-main{padding:6px 0 40px}
-h2{font-family:var(--display);font-weight:700;font-size:1.6rem;margin:46px 0 10px;letter-spacing:-.02em}
-h3{font-family:var(--display);font-weight:600;font-size:1.18rem;margin:26px 0 6px}
-p{margin:12px 0;color:var(--ink-soft)}
-p strong{color:var(--ink);font-weight:600}
-.toc{background:linear-gradient(180deg,var(--blue-soft),var(--surface));border:1px solid var(--blue-line);border-radius:16px;padding:22px 26px;margin:30px 0}
-.toc h4{font-family:var(--display);text-transform:uppercase;letter-spacing:.12em;font-size:.7rem;color:var(--blue);margin-bottom:14px}
-.toc ol{margin-left:18px}
-.toc li{margin:6px 0;font-size:.92rem}
-.toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
-.toc a:hover{border-bottom-color:var(--blue)}
-.steps{counter-reset:s;margin:18px 0}
-.step{position:relative;padding:18px 20px 18px 66px;background:var(--surface);border:1px solid var(--rule);border-radius:16px;margin:12px 0;box-shadow:var(--shadow);transition:.2s}
-.step:hover{box-shadow:var(--shadow-lg);transform:translateY(-2px)}
-.step::before{counter-increment:s;content:counter(s);position:absolute;left:18px;top:18px;width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,var(--blue-bright),var(--blue-deep));color:#fff;font-family:var(--display);font-weight:700;display:grid;place-items:center;font-size:1rem;box-shadow:0 6px 16px -6px var(--blue)}
-.step h3{margin:0 0 4px;font-size:1.05rem}
-.step p{margin:4px 0;font-size:.92rem}
-table{width:100%;border-collapse:separate;border-spacing:0;margin:18px 0;font-size:.92rem;background:var(--surface);border:1px solid var(--rule);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
-caption{text-align:left;font-size:.8rem;color:var(--ink-soft);margin-bottom:8px}
-th,td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--rule)}
-th{background:var(--blue-soft);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--blue-deep);font-weight:700}
-tr:last-child td{border-bottom:none}
-td b{color:var(--ink)}
-ul.checks{list-style:none;margin:14px 0}
-ul.checks li{position:relative;padding:9px 0 9px 32px;border-bottom:1px solid var(--rule);font-size:.95rem;color:var(--ink-soft)}
-ul.checks li:last-child{border-bottom:none}
-ul.checks li::before{content:"";position:absolute;left:2px;top:13px;width:18px;height:18px;border-radius:6px;background:var(--official-bg);border:1px solid var(--official-line)}
-ul.checks li::after{content:"";position:absolute;left:7px;top:16px;width:7px;height:4px;border-left:2px solid var(--official);border-bottom:2px solid var(--official);transform:rotate(-45deg)}
-.faq dt{font-family:var(--display);font-weight:600;font-size:1.06rem;color:var(--ink);margin:22px 0 4px}
-.faq dd{margin:0 0 14px;color:var(--ink-soft)}
-.related{margin:46px 0 10px}
-.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-top:16px}
-.related-grid a{display:block;padding:12px 14px;background:var(--surface);border:1px solid var(--rule);border-radius:12px;font-size:.86rem;font-weight:500;color:var(--ink);text-decoration:none;transition:.18s}
-.related-grid a:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow)}
-.pagetabs{display:flex;gap:8px;margin:20px 0;flex-wrap:wrap}
-.pagetabs a{font-size:.85rem;font-weight:500;padding:9px 18px;border:1px solid var(--rule);border-radius:999px;text-decoration:none;color:var(--ink-soft);background:var(--surface);transition:.18s}
-.pagetabs a:hover{border-color:var(--blue);color:var(--blue)}
-.pagetabs a.active{background:linear-gradient(135deg,var(--blue-bright),var(--blue));color:#fff;border-color:transparent;box-shadow:0 8px 20px -8px var(--blue)}
-.stategrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:24px 0}
-.stategrid a{display:flex;align-items:center;gap:10px;padding:14px 16px;background:var(--surface);border:1px solid var(--rule);border-radius:12px;text-decoration:none;color:var(--ink);font-size:.92rem;font-weight:500;transition:.18s}
-.stategrid a::before{content:"";width:9px;height:9px;border-radius:3px;background:var(--blue-bright);flex:none}
-.stategrid a:hover{border-color:var(--blue);box-shadow:var(--shadow-lg);transform:translateY(-2px)}
-.adslot{margin:32px 0;padding:18px;border:1px dashed var(--blue-line);border-radius:14px;text-align:center;font-size:.7rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.12em;background:var(--blue-soft)}
-.prose p{margin:14px 0}
-.herowrap{position:relative;overflow:hidden}
-.herowrap::before{content:"";position:absolute;top:-120px;right:-80px;width:340px;height:340px;background:radial-gradient(circle,rgba(59,130,246,.18),transparent 70%);pointer-events:none}
-footer{border-top:1px solid var(--rule);padding:30px 0 56px;margin-top:36px;font-size:.83rem;color:var(--ink-soft)}
-footer .disc{background:var(--surface);border-radius:14px;padding:18px 20px;margin-bottom:18px;border:1px solid var(--rule)}
-footer a{color:var(--blue)}
+.sitenav{position:sticky;top:0;z-index:100;background:rgba(10,22,40,.96);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.brand{font-family:var(--display);font-weight:800;font-size:1.25rem;color:#fff;text-decoration:none;display:flex;align-items:center;gap:10px;letter-spacing:-.02em;white-space:nowrap}
+.brand-icon{width:32px;height:32px;border-radius:10px;background:linear-gradient(135deg,var(--blue-bright),var(--blue));display:grid;place-items:center;font-size:1.1rem;flex:none}
+.brand span{color:var(--amber)}
+.nav-links{display:flex;align-items:center;gap:4px;flex:1;justify-content:center}
+.nav-item{position:relative}
+.nav-btn{background:none;border:none;color:rgba(255,255,255,.8);font-family:var(--body);font-size:.9rem;font-weight:500;padding:8px 14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;gap:5px;transition:.18s;white-space:nowrap}
+.nav-btn:hover{background:rgba(255,255,255,.1);color:#fff}
+.nav-btn .chevron{font-size:.65rem;transition:transform .2s;display:inline-block}
+.nav-item.open .chevron{transform:rotate(180deg)}
+.nav-item.open .nav-btn{background:rgba(255,255,255,.12);color:#fff}
+.dropdown{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--rule);border-radius:16px;box-shadow:var(--sh-lg);padding:10px;min-width:240px;max-height:420px;overflow-y:auto;display:none;grid-template-columns:1fr 1fr;gap:2px;z-index:200}
+.nav-item.open .dropdown{display:grid}
+.dropdown a{display:block;padding:8px 12px;font-size:.85rem;color:var(--ink-2);text-decoration:none;border-radius:8px;transition:.15s;white-space:nowrap}
+.dropdown a:hover{background:var(--blue-soft);color:var(--blue)}
+.nav-right{display:flex;align-items:center;gap:8px}
+.nav-link-plain{color:rgba(255,255,255,.7);text-decoration:none;font-size:.88rem;font-weight:500;padding:8px 12px;border-radius:8px;transition:.18s;white-space:nowrap}
+.nav-link-plain:hover{background:rgba(255,255,255,.1);color:#fff}
+.nav-cta{background:var(--amber);color:var(--navy);font-family:var(--body);font-weight:700;font-size:.88rem;padding:9px 18px;border-radius:999px;text-decoration:none;transition:.18s;white-space:nowrap}
+.nav-cta:hover{background:var(--amber-dark)}
+.hamburger{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer;padding:8px}
+.hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 50%,var(--navy-3) 100%);padding:80px 24px 72px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 70% 40%,rgba(59,130,246,.18),transparent),radial-gradient(ellipse 40% 40% at 20% 80%,rgba(245,158,11,.08),transparent);pointer-events:none}
+.hero-inner{max-width:860px;margin:0 auto;text-align:center;position:relative}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:7px 16px;font-size:.78rem;color:rgba(255,255,255,.75);margin-bottom:28px;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+.hero-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--amber);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,6vw,3.8rem);color:#fff;line-height:1.06;letter-spacing:-.03em;margin-bottom:20px}
+.hero h1 .accent{background:linear-gradient(90deg,var(--amber),#fcd34d);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{font-size:1.1rem;color:rgba(255,255,255,.65);max-width:54ch;margin:0 auto 36px;line-height:1.65}
+.search-wrap{max-width:560px;margin:0 auto 36px;position:relative}
+.search-wrap input{width:100%;padding:18px 56px 18px 52px;border-radius:16px;border:2px solid rgba(255,255,255,.12);background:rgba(255,255,255,.08);color:#fff;font-family:var(--body);font-size:1.05rem;outline:none;transition:.2s;backdrop-filter:blur(8px)}
+.search-wrap input::placeholder{color:rgba(255,255,255,.4)}
+.search-wrap input:focus{border-color:var(--blue-bright);background:rgba(255,255,255,.12)}
+.s-icon{position:absolute;left:18px;top:50%;transform:translateY(-50%);font-size:1.1rem;pointer-events:none}
+.s-clear{position:absolute;right:14px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:none;color:#fff;cursor:pointer;border-radius:50%;width:28px;height:28px;display:none;align-items:center;justify-content:center;font-size:.85rem}
+.s-clear.vis{display:flex}
+.s-results{position:absolute;top:calc(100% + 8px);left:0;right:0;background:var(--surface);border:1px solid var(--rule);border-radius:14px;box-shadow:var(--sh-lg);display:none;z-index:50;max-height:320px;overflow-y:auto}
+.s-results.open{display:block}
+.sri{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--rule);transition:.15s}
+.sri:last-child{border-bottom:none}
+.sri:hover{background:var(--blue-soft)}
+.sri-name{font-weight:600;font-size:.94rem;color:var(--ink)}
+.sri-links{display:flex;gap:5px}
+.sri-links a{font-size:.75rem;padding:4px 9px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:600;text-decoration:none}
+.sri-links a:hover{background:var(--blue);color:#fff}
+.hero-stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.stat{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:12px 22px;text-align:center}
+.stat strong{display:block;font-family:var(--display);font-size:1.5rem;font-weight:800;color:var(--amber)}
+.stat span{font-size:.75rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.08em}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.features{padding:64px 0 48px}
+.section-label{text-align:center;margin-bottom:40px}
+.section-label h2{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,4vw,2.4rem);color:var(--ink);letter-spacing:-.02em;margin-bottom:10px}
+.section-label p{color:var(--ink-soft);font-size:1rem;max-width:52ch;margin:0 auto}
+.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-bottom:16px}
+.fc{background:var(--surface);border:1px solid var(--rule);border-radius:20px;padding:28px;transition:.22s;text-decoration:none;display:block;position:relative;overflow:hidden}
+.fc:hover{transform:translateY(-4px);box-shadow:var(--sh-lg);border-color:var(--blue-line)}
+.fc-icon{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;font-size:1.5rem;margin-bottom:18px}
+.fc.renewal .fc-icon{background:linear-gradient(135deg,#dbeafe,#eff6ff)}
+.fc.realid .fc-icon{background:linear-gradient(135deg,#d1fae5,#ecfdf5)}
+.fc.replace .fc-icon{background:linear-gradient(135deg,#fef3c7,#fffbeb)}
+.fc-title{font-family:var(--display);font-weight:700;font-size:1.18rem;color:var(--ink);margin-bottom:8px}
+.fc-desc{color:var(--ink-soft);font-size:.92rem;line-height:1.55;margin-bottom:18px}
+.fc-cta{font-size:.86rem;font-weight:700;display:flex;align-items:center;gap:5px}
+.fc.renewal .fc-cta{color:var(--blue)}
+.fc.realid .fc-cta{color:#059669}
+.fc.replace .fc-cta{color:var(--amber-dark)}
+.official-note{background:linear-gradient(135deg,#e6f7f0,#f0fdf8);border:1px solid #b6e4d2;border-radius:16px;padding:18px 22px;margin-bottom:48px;display:flex;align-items:flex-start;gap:14px}
+.official-note .on-icon{font-size:1.4rem;flex:none;margin-top:2px}
+.official-note p{font-size:.92rem;color:#0a5a42;line-height:1.55}
+.official-note strong{color:#065f46}
+.adslot{margin:32px 0;padding:18px;border:1px dashed var(--blue-line);border-radius:14px;text-align:center;font-size:.7rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.12em;background:var(--bg-2)}
+.states-section{padding:8px 0 64px}
+.region-tabs{display:flex;gap:8px;margin-bottom:32px;flex-wrap:wrap}
+.rtab{background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:9px 18px;font-size:.88rem;font-weight:600;color:var(--ink-soft);cursor:pointer;transition:.18s;display:flex;align-items:center;gap:7px}
+.rtab:hover,.rtab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.region-block{margin-bottom:40px}
+.region-block.hidden{display:none}
+.region-title{font-family:var(--display);font-weight:700;font-size:1.1rem;color:var(--ink-2);margin-bottom:16px;display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:2px solid var(--rule)}
+.state-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:10px}
+.state-card{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:14px 16px;text-decoration:none;display:flex;align-items:center;gap:10px;transition:.18s}
+.state-card:hover{border-color:var(--blue);box-shadow:var(--sh);transform:translateY(-2px)}
+.state-card.hidden{display:none}
+.state-abbr{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--blue);background:var(--blue-soft);border-radius:8px;width:34px;height:34px;display:grid;place-items:center;flex:none}
+.state-name{font-size:.88rem;font-weight:600;color:var(--ink);line-height:1.3}
+.no-results{text-align:center;padding:40px;color:var(--ink-soft);font-size:.95rem;display:none}
+.no-results.visible{display:block}
+footer{background:var(--navy);color:rgba(255,255,255,.5);padding:40px 24px 50px;margin-top:40px}
+.footer-inner{max-width:1200px;margin:0 auto}
+.footer-disc{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:16px 20px;margin-bottom:20px;font-size:.82rem;line-height:1.6}
+.footer-disc strong{color:rgba(255,255,255,.8)}
+.footer-links{display:flex;gap:16px;flex-wrap:wrap;font-size:.83rem}
+.footer-links a{color:rgba(255,255,255,.5);text-decoration:none}
+.footer-links a:hover{color:#fff}
+.mobile-menu{display:none;position:fixed;inset:0;background:var(--navy);z-index:200;overflow-y:auto;padding:24px}
+.mobile-menu.open{display:block}
+.mobile-close{background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer;float:right;padding:4px 8px}
+.mobile-section{margin:24px 0}
+.mobile-section h4{color:var(--amber);font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;margin-bottom:10px;font-weight:700}
+.mobile-section-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.mobile-section-grid a{color:rgba(255,255,255,.8);text-decoration:none;font-size:.86rem;padding:8px 10px;border-radius:8px;background:rgba(255,255,255,.06)}
+.mobile-section-grid a:hover{background:rgba(255,255,255,.12);color:#fff}
+@media(max-width:768px){
+  .nav-links,.nav-right{display:none}
+  .hamburger{display:block}
+  .hero h1{font-size:2.2rem}
+  .hero-stats{gap:8px}
+  .stat{padding:10px 14px}
+  .feature-grid{grid-template-columns:1fr}
+  .state-grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+  .dropdown{grid-template-columns:1fr}
+}
 </style>
-</head><body>
-<div class="gov-bar">This is an <strong>unofficial guide</strong>. It is not affiliated with any government agency.</div>
-<div class="sitenav"><div class="wrap">
-  <a class="brand" href="/"><span class="dot"></span>DMV<span>Verify</span></a>
-  <nav><a href="/">All States</a><a href="/about/">About</a><a href="/editorial-policy/">Editorial Policy</a><a href="/contact/">Contact</a></nav>
-</div></div>
+</head>
+<body>
+<div class="gov-bar">This is an <strong>unofficial guide</strong>. Not affiliated with any government agency. Always verify with your official state DMV.</div>
+<nav class="sitenav">
+  <div class="nav-inner">
+    <a class="brand" href="/"><span class="brand-icon">🪪</span>DMV<span>Verify</span></a>
+    <div class="nav-links"><div class="nav-item has-dropdown">
+      <button class="nav-btn" aria-haspopup="true" aria-expanded="false">🔄 License Renewal <span class="chevron">▾</span></button>
+      <div class="dropdown" role="menu"><a href="/alabama-renewal/">Alabama</a><a href="/alaska-renewal/">Alaska</a><a href="/arizona-renewal/">Arizona</a><a href="/arkansas-renewal/">Arkansas</a><a href="/california-renewal/">California</a><a href="/colorado-renewal/">Colorado</a><a href="/connecticut-renewal/">Connecticut</a><a href="/delaware-renewal/">Delaware</a><a href="/district-of-columbia-renewal/">District of Columbia</a><a href="/florida-renewal/">Florida</a><a href="/georgia-renewal/">Georgia</a><a href="/hawaii-renewal/">Hawaii</a><a href="/idaho-renewal/">Idaho</a><a href="/illinois-renewal/">Illinois</a><a href="/indiana-renewal/">Indiana</a><a href="/iowa-renewal/">Iowa</a><a href="/kansas-renewal/">Kansas</a><a href="/kentucky-renewal/">Kentucky</a><a href="/louisiana-renewal/">Louisiana</a><a href="/maine-renewal/">Maine</a><a href="/maryland-renewal/">Maryland</a><a href="/massachusetts-renewal/">Massachusetts</a><a href="/michigan-renewal/">Michigan</a><a href="/minnesota-renewal/">Minnesota</a><a href="/mississippi-renewal/">Mississippi</a><a href="/missouri-renewal/">Missouri</a><a href="/montana-renewal/">Montana</a><a href="/nebraska-renewal/">Nebraska</a><a href="/nevada-renewal/">Nevada</a><a href="/new-hampshire-renewal/">New Hampshire</a><a href="/new-jersey-renewal/">New Jersey</a><a href="/new-mexico-renewal/">New Mexico</a><a href="/new-york-renewal/">New York</a><a href="/north-carolina-renewal/">North Carolina</a><a href="/north-dakota-renewal/">North Dakota</a><a href="/ohio-renewal/">Ohio</a><a href="/oklahoma-renewal/">Oklahoma</a><a href="/oregon-renewal/">Oregon</a><a href="/pennsylvania-renewal/">Pennsylvania</a><a href="/rhode-island-renewal/">Rhode Island</a><a href="/south-carolina-renewal/">South Carolina</a><a href="/south-dakota-renewal/">South Dakota</a><a href="/tennessee-renewal/">Tennessee</a><a href="/texas-renewal/">Texas</a><a href="/utah-renewal/">Utah</a><a href="/vermont-renewal/">Vermont</a><a href="/virginia-renewal/">Virginia</a><a href="/washington-renewal/">Washington</a><a href="/west-virginia-renewal/">West Virginia</a><a href="/wisconsin-renewal/">Wisconsin</a><a href="/wyoming-renewal/">Wyoming</a></div>
+    </div><div class="nav-item has-dropdown">
+      <button class="nav-btn" aria-haspopup="true" aria-expanded="false">⭐ REAL ID <span class="chevron">▾</span></button>
+      <div class="dropdown" role="menu"><a href="/alabama-real-id/">Alabama</a><a href="/alaska-real-id/">Alaska</a><a href="/arizona-real-id/">Arizona</a><a href="/arkansas-real-id/">Arkansas</a><a href="/california-real-id/">California</a><a href="/colorado-real-id/">Colorado</a><a href="/connecticut-real-id/">Connecticut</a><a href="/delaware-real-id/">Delaware</a><a href="/district-of-columbia-real-id/">District of Columbia</a><a href="/florida-real-id/">Florida</a><a href="/georgia-real-id/">Georgia</a><a href="/hawaii-real-id/">Hawaii</a><a href="/idaho-real-id/">Idaho</a><a href="/illinois-real-id/">Illinois</a><a href="/indiana-real-id/">Indiana</a><a href="/iowa-real-id/">Iowa</a><a href="/kansas-real-id/">Kansas</a><a href="/kentucky-real-id/">Kentucky</a><a href="/louisiana-real-id/">Louisiana</a><a href="/maine-real-id/">Maine</a><a href="/maryland-real-id/">Maryland</a><a href="/massachusetts-real-id/">Massachusetts</a><a href="/michigan-real-id/">Michigan</a><a href="/minnesota-real-id/">Minnesota</a><a href="/mississippi-real-id/">Mississippi</a><a href="/missouri-real-id/">Missouri</a><a href="/montana-real-id/">Montana</a><a href="/nebraska-real-id/">Nebraska</a><a href="/nevada-real-id/">Nevada</a><a href="/new-hampshire-real-id/">New Hampshire</a><a href="/new-jersey-real-id/">New Jersey</a><a href="/new-mexico-real-id/">New Mexico</a><a href="/new-york-real-id/">New York</a><a href="/north-carolina-real-id/">North Carolina</a><a href="/north-dakota-real-id/">North Dakota</a><a href="/ohio-real-id/">Ohio</a><a href="/oklahoma-real-id/">Oklahoma</a><a href="/oregon-real-id/">Oregon</a><a href="/pennsylvania-real-id/">Pennsylvania</a><a href="/rhode-island-real-id/">Rhode Island</a><a href="/south-carolina-real-id/">South Carolina</a><a href="/south-dakota-real-id/">South Dakota</a><a href="/tennessee-real-id/">Tennessee</a><a href="/texas-real-id/">Texas</a><a href="/utah-real-id/">Utah</a><a href="/vermont-real-id/">Vermont</a><a href="/virginia-real-id/">Virginia</a><a href="/washington-real-id/">Washington</a><a href="/west-virginia-real-id/">West Virginia</a><a href="/wisconsin-real-id/">Wisconsin</a><a href="/wyoming-real-id/">Wyoming</a></div>
+    </div><div class="nav-item has-dropdown">
+      <button class="nav-btn" aria-haspopup="true" aria-expanded="false">📋 Replacement <span class="chevron">▾</span></button>
+      <div class="dropdown" role="menu"><a href="/alabama-replacement/">Alabama</a><a href="/alaska-replacement/">Alaska</a><a href="/arizona-replacement/">Arizona</a><a href="/arkansas-replacement/">Arkansas</a><a href="/california-replacement/">California</a><a href="/colorado-replacement/">Colorado</a><a href="/connecticut-replacement/">Connecticut</a><a href="/delaware-replacement/">Delaware</a><a href="/district-of-columbia-replacement/">District of Columbia</a><a href="/florida-replacement/">Florida</a><a href="/georgia-replacement/">Georgia</a><a href="/hawaii-replacement/">Hawaii</a><a href="/idaho-replacement/">Idaho</a><a href="/illinois-replacement/">Illinois</a><a href="/indiana-replacement/">Indiana</a><a href="/iowa-replacement/">Iowa</a><a href="/kansas-replacement/">Kansas</a><a href="/kentucky-replacement/">Kentucky</a><a href="/louisiana-replacement/">Louisiana</a><a href="/maine-replacement/">Maine</a><a href="/maryland-replacement/">Maryland</a><a href="/massachusetts-replacement/">Massachusetts</a><a href="/michigan-replacement/">Michigan</a><a href="/minnesota-replacement/">Minnesota</a><a href="/mississippi-replacement/">Mississippi</a><a href="/missouri-replacement/">Missouri</a><a href="/montana-replacement/">Montana</a><a href="/nebraska-replacement/">Nebraska</a><a href="/nevada-replacement/">Nevada</a><a href="/new-hampshire-replacement/">New Hampshire</a><a href="/new-jersey-replacement/">New Jersey</a><a href="/new-mexico-replacement/">New Mexico</a><a href="/new-york-replacement/">New York</a><a href="/north-carolina-replacement/">North Carolina</a><a href="/north-dakota-replacement/">North Dakota</a><a href="/ohio-replacement/">Ohio</a><a href="/oklahoma-replacement/">Oklahoma</a><a href="/oregon-replacement/">Oregon</a><a href="/pennsylvania-replacement/">Pennsylvania</a><a href="/rhode-island-replacement/">Rhode Island</a><a href="/south-carolina-replacement/">South Carolina</a><a href="/south-dakota-replacement/">South Dakota</a><a href="/tennessee-replacement/">Tennessee</a><a href="/texas-replacement/">Texas</a><a href="/utah-replacement/">Utah</a><a href="/vermont-replacement/">Vermont</a><a href="/virginia-replacement/">Virginia</a><a href="/washington-replacement/">Washington</a><a href="/west-virginia-replacement/">West Virginia</a><a href="/wisconsin-replacement/">Wisconsin</a><a href="/wyoming-replacement/">Wyoming</a></div>
+    </div>
+    </div>
+    <div class="nav-right">
+      <a class="nav-link-plain" href="/about/">About</a>
+      <a class="nav-link-plain" href="/contact/">Contact</a>
+      <a class="nav-cta" href="#states">Find Your State</a>
+    </div>
+    <button class="hamburger" onclick="document.getElementById('mMenu').classList.add('open')" aria-label="Menu">☰</button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mMenu">
+  <button class="mobile-close" onclick="document.getElementById('mMenu').classList.remove('open')">✕</button>
+  <div style="margin-bottom:16px"><a class="brand" href="/" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#fff"><span style="width:28px;height:28px;border-radius:8px;background:var(--blue);display:grid;place-items:center;font-size:.9rem">🪪</span>DMV<span style="color:var(--amber)">Verify</span></a></div><div class="mobile-section"><h4>🔄 License Renewal</h4><div class="mobile-section-grid"><a href="/alabama-renewal/">Alabama</a><a href="/alaska-renewal/">Alaska</a><a href="/arizona-renewal/">Arizona</a><a href="/arkansas-renewal/">Arkansas</a><a href="/california-renewal/">California</a><a href="/colorado-renewal/">Colorado</a><a href="/connecticut-renewal/">Connecticut</a><a href="/delaware-renewal/">Delaware</a><a href="/district-of-columbia-renewal/">District of Columbia</a><a href="/florida-renewal/">Florida</a><a href="/georgia-renewal/">Georgia</a><a href="/hawaii-renewal/">Hawaii</a><a href="/idaho-renewal/">Idaho</a><a href="/illinois-renewal/">Illinois</a><a href="/indiana-renewal/">Indiana</a><a href="/iowa-renewal/">Iowa</a><a href="/kansas-renewal/">Kansas</a><a href="/kentucky-renewal/">Kentucky</a><a href="/louisiana-renewal/">Louisiana</a><a href="/maine-renewal/">Maine</a><a href="/maryland-renewal/">Maryland</a><a href="/massachusetts-renewal/">Massachusetts</a><a href="/michigan-renewal/">Michigan</a><a href="/minnesota-renewal/">Minnesota</a><a href="/mississippi-renewal/">Mississippi</a><a href="/missouri-renewal/">Missouri</a><a href="/montana-renewal/">Montana</a><a href="/nebraska-renewal/">Nebraska</a><a href="/nevada-renewal/">Nevada</a><a href="/new-hampshire-renewal/">New Hampshire</a><a href="/new-jersey-renewal/">New Jersey</a><a href="/new-mexico-renewal/">New Mexico</a><a href="/new-york-renewal/">New York</a><a href="/north-carolina-renewal/">North Carolina</a><a href="/north-dakota-renewal/">North Dakota</a><a href="/ohio-renewal/">Ohio</a><a href="/oklahoma-renewal/">Oklahoma</a><a href="/oregon-renewal/">Oregon</a><a href="/pennsylvania-renewal/">Pennsylvania</a><a href="/rhode-island-renewal/">Rhode Island</a><a href="/south-carolina-renewal/">South Carolina</a><a href="/south-dakota-renewal/">South Dakota</a><a href="/tennessee-renewal/">Tennessee</a><a href="/texas-renewal/">Texas</a><a href="/utah-renewal/">Utah</a><a href="/vermont-renewal/">Vermont</a><a href="/virginia-renewal/">Virginia</a><a href="/washington-renewal/">Washington</a><a href="/west-virginia-renewal/">West Virginia</a><a href="/wisconsin-renewal/">Wisconsin</a><a href="/wyoming-renewal/">Wyoming</a></div></div><div class="mobile-section"><h4>⭐ REAL ID</h4><div class="mobile-section-grid"><a href="/alabama-real-id/">Alabama</a><a href="/alaska-real-id/">Alaska</a><a href="/arizona-real-id/">Arizona</a><a href="/arkansas-real-id/">Arkansas</a><a href="/california-real-id/">California</a><a href="/colorado-real-id/">Colorado</a><a href="/connecticut-real-id/">Connecticut</a><a href="/delaware-real-id/">Delaware</a><a href="/district-of-columbia-real-id/">District of Columbia</a><a href="/florida-real-id/">Florida</a><a href="/georgia-real-id/">Georgia</a><a href="/hawaii-real-id/">Hawaii</a><a href="/idaho-real-id/">Idaho</a><a href="/illinois-real-id/">Illinois</a><a href="/indiana-real-id/">Indiana</a><a href="/iowa-real-id/">Iowa</a><a href="/kansas-real-id/">Kansas</a><a href="/kentucky-real-id/">Kentucky</a><a href="/louisiana-real-id/">Louisiana</a><a href="/maine-real-id/">Maine</a><a href="/maryland-real-id/">Maryland</a><a href="/massachusetts-real-id/">Massachusetts</a><a href="/michigan-real-id/">Michigan</a><a href="/minnesota-real-id/">Minnesota</a><a href="/mississippi-real-id/">Mississippi</a><a href="/missouri-real-id/">Missouri</a><a href="/montana-real-id/">Montana</a><a href="/nebraska-real-id/">Nebraska</a><a href="/nevada-real-id/">Nevada</a><a href="/new-hampshire-real-id/">New Hampshire</a><a href="/new-jersey-real-id/">New Jersey</a><a href="/new-mexico-real-id/">New Mexico</a><a href="/new-york-real-id/">New York</a><a href="/north-carolina-real-id/">North Carolina</a><a href="/north-dakota-real-id/">North Dakota</a><a href="/ohio-real-id/">Ohio</a><a href="/oklahoma-real-id/">Oklahoma</a><a href="/oregon-real-id/">Oregon</a><a href="/pennsylvania-real-id/">Pennsylvania</a><a href="/rhode-island-real-id/">Rhode Island</a><a href="/south-carolina-real-id/">South Carolina</a><a href="/south-dakota-real-id/">South Dakota</a><a href="/tennessee-real-id/">Tennessee</a><a href="/texas-real-id/">Texas</a><a href="/utah-real-id/">Utah</a><a href="/vermont-real-id/">Vermont</a><a href="/virginia-real-id/">Virginia</a><a href="/washington-real-id/">Washington</a><a href="/west-virginia-real-id/">West Virginia</a><a href="/wisconsin-real-id/">Wisconsin</a><a href="/wyoming-real-id/">Wyoming</a></div></div><div class="mobile-section"><h4>📋 Replacement</h4><div class="mobile-section-grid"><a href="/alabama-replacement/">Alabama</a><a href="/alaska-replacement/">Alaska</a><a href="/arizona-replacement/">Arizona</a><a href="/arkansas-replacement/">Arkansas</a><a href="/california-replacement/">California</a><a href="/colorado-replacement/">Colorado</a><a href="/connecticut-replacement/">Connecticut</a><a href="/delaware-replacement/">Delaware</a><a href="/district-of-columbia-replacement/">District of Columbia</a><a href="/florida-replacement/">Florida</a><a href="/georgia-replacement/">Georgia</a><a href="/hawaii-replacement/">Hawaii</a><a href="/idaho-replacement/">Idaho</a><a href="/illinois-replacement/">Illinois</a><a href="/indiana-replacement/">Indiana</a><a href="/iowa-replacement/">Iowa</a><a href="/kansas-replacement/">Kansas</a><a href="/kentucky-replacement/">Kentucky</a><a href="/louisiana-replacement/">Louisiana</a><a href="/maine-replacement/">Maine</a><a href="/maryland-replacement/">Maryland</a><a href="/massachusetts-replacement/">Massachusetts</a><a href="/michigan-replacement/">Michigan</a><a href="/minnesota-replacement/">Minnesota</a><a href="/mississippi-replacement/">Mississippi</a><a href="/missouri-replacement/">Missouri</a><a href="/montana-replacement/">Montana</a><a href="/nebraska-replacement/">Nebraska</a><a href="/nevada-replacement/">Nevada</a><a href="/new-hampshire-replacement/">New Hampshire</a><a href="/new-jersey-replacement/">New Jersey</a><a href="/new-mexico-replacement/">New Mexico</a><a href="/new-york-replacement/">New York</a><a href="/north-carolina-replacement/">North Carolina</a><a href="/north-dakota-replacement/">North Dakota</a><a href="/ohio-replacement/">Ohio</a><a href="/oklahoma-replacement/">Oklahoma</a><a href="/oregon-replacement/">Oregon</a><a href="/pennsylvania-replacement/">Pennsylvania</a><a href="/rhode-island-replacement/">Rhode Island</a><a href="/south-carolina-replacement/">South Carolina</a><a href="/south-dakota-replacement/">South Dakota</a><a href="/tennessee-replacement/">Tennessee</a><a href="/texas-replacement/">Texas</a><a href="/utah-replacement/">Utah</a><a href="/vermont-replacement/">Vermont</a><a href="/virginia-replacement/">Virginia</a><a href="/washington-replacement/">Washington</a><a href="/west-virginia-replacement/">West Virginia</a><a href="/wisconsin-replacement/">Wisconsin</a><a href="/wyoming-replacement/">Wyoming</a></div></div>
+  <div class="mobile-section" style="border-top:1px solid rgba(255,255,255,.1);padding-top:16px">
+    <a href="/about/" style="color:rgba(255,255,255,.7);text-decoration:none;display:block;padding:10px 0">About</a>
+    <a href="/editorial-policy/" style="color:rgba(255,255,255,.7);text-decoration:none;display:block;padding:10px 0">Editorial Policy</a>
+    <a href="/privacy/" style="color:rgba(255,255,255,.7);text-decoration:none;display:block;padding:10px 0">Privacy</a>
+    <a href="/contact/" style="color:rgba(255,255,255,.7);text-decoration:none;display:block;padding:10px 0">Contact</a>
+  </div>
+</div>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge"><span class="dot"></span>Updated June 2026</div>
+    <h1>Your <span class="accent">Plain-English</span><br>DMV Guide</h1>
+    <p class="hero-sub">Step-by-step guides for license renewal, REAL ID, and replacements across all 50 states + DC. Know exactly what to bring, what it costs, and where to go.</p>
+    <div class="search-wrap">
+      <span class="s-icon">🔍</span>
+      <input type="text" id="heroSearch" placeholder="Search your state... e.g. California, Texas" autocomplete="off">
+      <button class="s-clear" id="sClear">✕</button>
+      <div class="s-results" id="sResults"></div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong>51</strong><span>States + DC</span></div>
+      <div class="stat"><strong>153</strong><span>Guides</span></div>
+      <div class="stat"><strong>2026</strong><span>Verified Data</span></div>
+      <div class="stat"><strong>Free</strong><span>Always</span></div>
+    </div>
+  </div>
+</section>
 <div class="wrap">
-<header class="masthead"><div class="kicker">Plain-English, unofficial guides to every state DMV.</div>
-<h1>DMV Guides for Every U.S. State</h1>
-<p class="dek">Clear, unofficial, no-nonsense guides to driver's license renewal, REAL ID, and license replacement — so you know what to do before you ever reach the official site.</p>
-<div class="meta"><span><b>Updated:</b> June 2026</span><span><b>Covers:</b> All 50 states + DC</span><span><b>Always free</b></span></div></header>
-<div class="official"><div class="lbl">How this site works</div>
-<p>We explain DMV processes in plain English and then send you to the correct official state website to actually complete them. We never collect personal information or process transactions. Choose your state below.</p></div>
-<h2>Choose Your State</h2>
-<div class="stategrid"><a href="/alabama-renewal/">Alabama</a><a href="/alaska-renewal/">Alaska</a><a href="/arizona-renewal/">Arizona</a><a href="/arkansas-renewal/">Arkansas</a><a href="/california-renewal/">California</a><a href="/colorado-renewal/">Colorado</a><a href="/connecticut-renewal/">Connecticut</a><a href="/delaware-renewal/">Delaware</a><a href="/district-of-columbia-renewal/">District of Columbia</a><a href="/florida-renewal/">Florida</a><a href="/georgia-renewal/">Georgia</a><a href="/hawaii-renewal/">Hawaii</a><a href="/idaho-renewal/">Idaho</a><a href="/illinois-renewal/">Illinois</a><a href="/indiana-renewal/">Indiana</a><a href="/iowa-renewal/">Iowa</a><a href="/kansas-renewal/">Kansas</a><a href="/kentucky-renewal/">Kentucky</a><a href="/louisiana-renewal/">Louisiana</a><a href="/maine-renewal/">Maine</a><a href="/maryland-renewal/">Maryland</a><a href="/massachusetts-renewal/">Massachusetts</a><a href="/michigan-renewal/">Michigan</a><a href="/minnesota-renewal/">Minnesota</a><a href="/mississippi-renewal/">Mississippi</a><a href="/missouri-renewal/">Missouri</a><a href="/montana-renewal/">Montana</a><a href="/nebraska-renewal/">Nebraska</a><a href="/nevada-renewal/">Nevada</a><a href="/new-hampshire-renewal/">New Hampshire</a><a href="/new-jersey-renewal/">New Jersey</a><a href="/new-mexico-renewal/">New Mexico</a><a href="/new-york-renewal/">New York</a><a href="/north-carolina-renewal/">North Carolina</a><a href="/north-dakota-renewal/">North Dakota</a><a href="/ohio-renewal/">Ohio</a><a href="/oklahoma-renewal/">Oklahoma</a><a href="/oregon-renewal/">Oregon</a><a href="/pennsylvania-renewal/">Pennsylvania</a><a href="/rhode-island-renewal/">Rhode Island</a><a href="/south-carolina-renewal/">South Carolina</a><a href="/south-dakota-renewal/">South Dakota</a><a href="/tennessee-renewal/">Tennessee</a><a href="/texas-renewal/">Texas</a><a href="/utah-renewal/">Utah</a><a href="/vermont-renewal/">Vermont</a><a href="/virginia-renewal/">Virginia</a><a href="/washington-renewal/">Washington</a><a href="/west-virginia-renewal/">West Virginia</a><a href="/wisconsin-renewal/">Wisconsin</a><a href="/wyoming-renewal/">Wyoming</a></div>
+<section class="features">
+  <div class="section-label">
+    <h2>What Do You Need?</h2>
+    <p>Pick your guide type, then choose your state for step-by-step instructions.</p>
+  </div>
+  <div class="feature-grid">
+    <a class="fc renewal" href="#states">
+      <div class="fc-icon">🔄</div>
+      <div class="fc-title">License Renewal</div>
+      <div class="fc-desc">Find out who can renew online, which documents to bring, the exact fee for your state, and the complete step-by-step process.</div>
+      <div class="fc-cta">Browse renewal guides →</div>
+    </a>
+    <a class="fc realid" href="#states">
+      <div class="fc-icon">⭐</div>
+      <div class="fc-title">REAL ID</div>
+      <div class="fc-desc">Understand what a REAL ID is, whether you need one to fly, and exactly which documents to bring to your in-person DMV appointment.</div>
+      <div class="fc-cta">Browse REAL ID guides →</div>
+    </a>
+    <a class="fc replace" href="#states">
+      <div class="fc-icon">📋</div>
+      <div class="fc-title">License Replacement</div>
+      <div class="fc-desc">Lost, stolen, or damaged license? Find the steps, the replacement fee, and whether you can order a duplicate online in your state.</div>
+      <div class="fc-cta">Browse replacement guides →</div>
+    </a>
+  </div>
+</section>
+<div class="official-note">
+  <span class="on-icon">🏛️</span>
+  <p><strong>How this site works:</strong> We explain DMV processes in plain English and link directly to your official state DMV for the actual transaction. We never collect personal information, process renewals, or charge any fees. This is a guide — all official actions happen on your state government website.</p>
+</div>
 <div class="adslot">Advertisement</div>
-<h2>What You'll Find Here</h2>
-<div class="prose">
-<p><strong>License renewal guides</strong> — who can renew online, the documents needed, the fees, and the step-by-step process for each state.</p>
-<p><strong>REAL ID guides</strong> — what a REAL ID is, whether you need one, and exactly which documents to bring for the in-person visit.</p>
-<p><strong>License replacement guides</strong> — how to get a duplicate if yours is lost, stolen, or damaged, and what it costs.</p>
+<section class="states-section" id="states">
+  <div class="section-label" style="text-align:left;margin-bottom:24px">
+    <h2>Choose Your State</h2>
+    <p>Organized by region — or type your state in the search bar above.</p>
+  </div>
+  <div class="region-tabs">
+    <button class="rtab active" data-region="all">🗺️ All States</button>
+    <button class="rtab" data-region="Northeast">🗽 Northeast</button>
+    <button class="rtab" data-region="Southeast">🌴 Southeast</button>
+    <button class="rtab" data-region="Midwest">🌾 Midwest</button>
+    <button class="rtab" data-region="Southwest">🌵 Southwest</button>
+    <button class="rtab" data-region="West">🏔️ West</button>
+  </div>
+  <div class="region-block" data-region="Northeast"><h3 class="region-title"><span class="region-icon">🗽</span>Northeast</h3><div class="state-grid"><a class="state-card" href="/connecticut-renewal/" data-state="connecticut"><span class="state-abbr">CT</span><span class="state-name">Connecticut</span></a><a class="state-card" href="/delaware-renewal/" data-state="delaware"><span class="state-abbr">DE</span><span class="state-name">Delaware</span></a><a class="state-card" href="/district-of-columbia-renewal/" data-state="district of columbia"><span class="state-abbr">DC</span><span class="state-name">District of Columbia</span></a><a class="state-card" href="/maine-renewal/" data-state="maine"><span class="state-abbr">ME</span><span class="state-name">Maine</span></a><a class="state-card" href="/maryland-renewal/" data-state="maryland"><span class="state-abbr">MD</span><span class="state-name">Maryland</span></a><a class="state-card" href="/massachusetts-renewal/" data-state="massachusetts"><span class="state-abbr">MA</span><span class="state-name">Massachusetts</span></a><a class="state-card" href="/new-hampshire-renewal/" data-state="new hampshire"><span class="state-abbr">NH</span><span class="state-name">New Hampshire</span></a><a class="state-card" href="/new-jersey-renewal/" data-state="new jersey"><span class="state-abbr">NJ</span><span class="state-name">New Jersey</span></a><a class="state-card" href="/new-york-renewal/" data-state="new york"><span class="state-abbr">NY</span><span class="state-name">New York</span></a><a class="state-card" href="/pennsylvania-renewal/" data-state="pennsylvania"><span class="state-abbr">PA</span><span class="state-name">Pennsylvania</span></a><a class="state-card" href="/rhode-island-renewal/" data-state="rhode island"><span class="state-abbr">RI</span><span class="state-name">Rhode Island</span></a><a class="state-card" href="/vermont-renewal/" data-state="vermont"><span class="state-abbr">VT</span><span class="state-name">Vermont</span></a></div></div><div class="region-block" data-region="Southeast"><h3 class="region-title"><span class="region-icon">🌴</span>Southeast</h3><div class="state-grid"><a class="state-card" href="/alabama-renewal/" data-state="alabama"><span class="state-abbr">AL</span><span class="state-name">Alabama</span></a><a class="state-card" href="/arkansas-renewal/" data-state="arkansas"><span class="state-abbr">AR</span><span class="state-name">Arkansas</span></a><a class="state-card" href="/florida-renewal/" data-state="florida"><span class="state-abbr">FL</span><span class="state-name">Florida</span></a><a class="state-card" href="/georgia-renewal/" data-state="georgia"><span class="state-abbr">GA</span><span class="state-name">Georgia</span></a><a class="state-card" href="/kentucky-renewal/" data-state="kentucky"><span class="state-abbr">KY</span><span class="state-name">Kentucky</span></a><a class="state-card" href="/louisiana-renewal/" data-state="louisiana"><span class="state-abbr">LA</span><span class="state-name">Louisiana</span></a><a class="state-card" href="/mississippi-renewal/" data-state="mississippi"><span class="state-abbr">MS</span><span class="state-name">Mississippi</span></a><a class="state-card" href="/north-carolina-renewal/" data-state="north carolina"><span class="state-abbr">NC</span><span class="state-name">North Carolina</span></a><a class="state-card" href="/south-carolina-renewal/" data-state="south carolina"><span class="state-abbr">SC</span><span class="state-name">South Carolina</span></a><a class="state-card" href="/tennessee-renewal/" data-state="tennessee"><span class="state-abbr">TN</span><span class="state-name">Tennessee</span></a><a class="state-card" href="/virginia-renewal/" data-state="virginia"><span class="state-abbr">VA</span><span class="state-name">Virginia</span></a><a class="state-card" href="/west-virginia-renewal/" data-state="west virginia"><span class="state-abbr">WV</span><span class="state-name">West Virginia</span></a></div></div><div class="region-block" data-region="Midwest"><h3 class="region-title"><span class="region-icon">🌾</span>Midwest</h3><div class="state-grid"><a class="state-card" href="/illinois-renewal/" data-state="illinois"><span class="state-abbr">IL</span><span class="state-name">Illinois</span></a><a class="state-card" href="/indiana-renewal/" data-state="indiana"><span class="state-abbr">IN</span><span class="state-name">Indiana</span></a><a class="state-card" href="/iowa-renewal/" data-state="iowa"><span class="state-abbr">IA</span><span class="state-name">Iowa</span></a><a class="state-card" href="/kansas-renewal/" data-state="kansas"><span class="state-abbr">KS</span><span class="state-name">Kansas</span></a><a class="state-card" href="/michigan-renewal/" data-state="michigan"><span class="state-abbr">MI</span><span class="state-name">Michigan</span></a><a class="state-card" href="/minnesota-renewal/" data-state="minnesota"><span class="state-abbr">MN</span><span class="state-name">Minnesota</span></a><a class="state-card" href="/missouri-renewal/" data-state="missouri"><span class="state-abbr">MO</span><span class="state-name">Missouri</span></a><a class="state-card" href="/nebraska-renewal/" data-state="nebraska"><span class="state-abbr">NE</span><span class="state-name">Nebraska</span></a><a class="state-card" href="/north-dakota-renewal/" data-state="north dakota"><span class="state-abbr">ND</span><span class="state-name">North Dakota</span></a><a class="state-card" href="/ohio-renewal/" data-state="ohio"><span class="state-abbr">OH</span><span class="state-name">Ohio</span></a><a class="state-card" href="/south-dakota-renewal/" data-state="south dakota"><span class="state-abbr">SD</span><span class="state-name">South Dakota</span></a><a class="state-card" href="/wisconsin-renewal/" data-state="wisconsin"><span class="state-abbr">WI</span><span class="state-name">Wisconsin</span></a></div></div><div class="region-block" data-region="Southwest"><h3 class="region-title"><span class="region-icon">🌵</span>Southwest</h3><div class="state-grid"><a class="state-card" href="/arizona-renewal/" data-state="arizona"><span class="state-abbr">AZ</span><span class="state-name">Arizona</span></a><a class="state-card" href="/new-mexico-renewal/" data-state="new mexico"><span class="state-abbr">NM</span><span class="state-name">New Mexico</span></a><a class="state-card" href="/oklahoma-renewal/" data-state="oklahoma"><span class="state-abbr">OK</span><span class="state-name">Oklahoma</span></a><a class="state-card" href="/texas-renewal/" data-state="texas"><span class="state-abbr">TX</span><span class="state-name">Texas</span></a></div></div><div class="region-block" data-region="West"><h3 class="region-title"><span class="region-icon">🏔️</span>West</h3><div class="state-grid"><a class="state-card" href="/alaska-renewal/" data-state="alaska"><span class="state-abbr">AK</span><span class="state-name">Alaska</span></a><a class="state-card" href="/california-renewal/" data-state="california"><span class="state-abbr">CA</span><span class="state-name">California</span></a><a class="state-card" href="/colorado-renewal/" data-state="colorado"><span class="state-abbr">CO</span><span class="state-name">Colorado</span></a><a class="state-card" href="/hawaii-renewal/" data-state="hawaii"><span class="state-abbr">HI</span><span class="state-name">Hawaii</span></a><a class="state-card" href="/idaho-renewal/" data-state="idaho"><span class="state-abbr">ID</span><span class="state-name">Idaho</span></a><a class="state-card" href="/montana-renewal/" data-state="montana"><span class="state-abbr">MT</span><span class="state-name">Montana</span></a><a class="state-card" href="/nevada-renewal/" data-state="nevada"><span class="state-abbr">NV</span><span class="state-name">Nevada</span></a><a class="state-card" href="/oregon-renewal/" data-state="oregon"><span class="state-abbr">OR</span><span class="state-name">Oregon</span></a><a class="state-card" href="/utah-renewal/" data-state="utah"><span class="state-abbr">UT</span><span class="state-name">Utah</span></a><a class="state-card" href="/washington-renewal/" data-state="washington"><span class="state-abbr">WA</span><span class="state-name">Washington</span></a><a class="state-card" href="/wyoming-renewal/" data-state="wyoming"><span class="state-abbr">WY</span><span class="state-name">Wyoming</span></a></div></div>
+  <div class="no-results" id="noRes">No states found. Try a different search term.</div>
+</section>
+<div class="adslot">Advertisement</div>
 </div>
 <footer>
-  <div class="disc"><strong>Disclaimer:</strong> dmvverify.com is a privately operated, unofficial informational resource. It is <strong>not</strong> affiliated with, endorsed by, or connected to any state DMV or government agency. We do not process transactions, collect personal information, or charge fees for government services.  All transactions must be completed on the relevant official state website. Information here is general and may change; always verify with the official source.</div>
-  <p><a href="/about/">About</a> · <a href="/editorial-policy/">Editorial Policy</a> · <a href="/privacy/">Privacy</a> · <a href="/contact/">Contact</a> &nbsp;·&nbsp; © 2026 dmvverify.com</p>
-</footer></div>
+  <div class="footer-inner">
+    <div class="footer-disc"><strong>Disclaimer:</strong> dmvverify.com is a privately operated, unofficial informational resource. It is <strong>not</strong> affiliated with, endorsed by, or connected to any state DMV or government agency. We do not process renewals, collect personal information, or charge fees for government services. All transactions must be completed on your official state DMV website. Information here is general and may change — always verify with the official source.</div>
+    <div class="footer-links">
+      <a href="/about/">About</a><a href="/editorial-policy/">Editorial Policy</a>
+      <a href="/privacy/">Privacy</a><a href="/contact/">Contact</a>
+      <span>© 2026 dmvverify.com</span>
+    </div>
+  </div>
+</footer>
+<script>
+const STATES_DATA = [{"name": "Alabama", "slug": "alabama"}, {"name": "Alaska", "slug": "alaska"}, {"name": "Arizona", "slug": "arizona"}, {"name": "Arkansas", "slug": "arkansas"}, {"name": "California", "slug": "california"}, {"name": "Colorado", "slug": "colorado"}, {"name": "Connecticut", "slug": "connecticut"}, {"name": "Delaware", "slug": "delaware"}, {"name": "District of Columbia", "slug": "district-of-columbia"}, {"name": "Florida", "slug": "florida"}, {"name": "Georgia", "slug": "georgia"}, {"name": "Hawaii", "slug": "hawaii"}, {"name": "Idaho", "slug": "idaho"}, {"name": "Illinois", "slug": "illinois"}, {"name": "Indiana", "slug": "indiana"}, {"name": "Iowa", "slug": "iowa"}, {"name": "Kansas", "slug": "kansas"}, {"name": "Kentucky", "slug": "kentucky"}, {"name": "Louisiana", "slug": "louisiana"}, {"name": "Maine", "slug": "maine"}, {"name": "Maryland", "slug": "maryland"}, {"name": "Massachusetts", "slug": "massachusetts"}, {"name": "Michigan", "slug": "michigan"}, {"name": "Minnesota", "slug": "minnesota"}, {"name": "Mississippi", "slug": "mississippi"}, {"name": "Missouri", "slug": "missouri"}, {"name": "Montana", "slug": "montana"}, {"name": "Nebraska", "slug": "nebraska"}, {"name": "Nevada", "slug": "nevada"}, {"name": "New Hampshire", "slug": "new-hampshire"}, {"name": "New Jersey", "slug": "new-jersey"}, {"name": "New Mexico", "slug": "new-mexico"}, {"name": "New York", "slug": "new-york"}, {"name": "North Carolina", "slug": "north-carolina"}, {"name": "North Dakota", "slug": "north-dakota"}, {"name": "Ohio", "slug": "ohio"}, {"name": "Oklahoma", "slug": "oklahoma"}, {"name": "Oregon", "slug": "oregon"}, {"name": "Pennsylvania", "slug": "pennsylvania"}, {"name": "Rhode Island", "slug": "rhode-island"}, {"name": "South Carolina", "slug": "south-carolina"}, {"name": "South Dakota", "slug": "south-dakota"}, {"name": "Tennessee", "slug": "tennessee"}, {"name": "Texas", "slug": "texas"}, {"name": "Utah", "slug": "utah"}, {"name": "Vermont", "slug": "vermont"}, {"name": "Virginia", "slug": "virginia"}, {"name": "Washington", "slug": "washington"}, {"name": "West Virginia", "slug": "west-virginia"}, {"name": "Wisconsin", "slug": "wisconsin"}, {"name": "Wyoming", "slug": "wyoming"}];
+document.querySelectorAll('.nav-item.has-dropdown').forEach(item => {
+  const btn = item.querySelector('.nav-btn');
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const was = item.classList.contains('open');
+    document.querySelectorAll('.nav-item.has-dropdown').forEach(i => { i.classList.remove('open'); i.querySelector('.nav-btn').setAttribute('aria-expanded','false'); });
+    if (!was) { item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+  });
+});
+document.addEventListener('click', () => document.querySelectorAll('.nav-item.has-dropdown').forEach(i => { i.classList.remove('open'); i.querySelector('.nav-btn').setAttribute('aria-expanded','false'); }));
 
-</body></html>
+const inp = document.getElementById('heroSearch');
+const res = document.getElementById('sResults');
+const clr = document.getElementById('sClear');
+function doSearch(q) {
+  if (!q) { res.classList.remove('open'); return; }
+  const m = STATES_DATA.filter(s => s.name.toLowerCase().includes(q.toLowerCase())).slice(0,8);
+  res.innerHTML = m.length ? m.map(s => '<a class="sri" href="/'+s.slug+'-renewal/"><span class="sri-name">'+s.name+'</span><span class="sri-links" onclick="event.stopPropagation()"><a href="/'+s.slug+'-renewal/">Renewal</a><a href="/'+s.slug+'-real-id/">REAL ID</a><a href="/'+s.slug+'-replacement/">Replace</a></span></a>').join('') : '<div style="padding:14px 16px;color:#5a6e9a;font-size:.9rem">No states found</div>';
+  res.classList.add('open');
+}
+inp.addEventListener('input', e => {
+  const q = e.target.value.trim();
+  clr.classList.toggle('vis', q.length > 0);
+  doSearch(q);
+  const ql = q.toLowerCase();
+  let any = false;
+  document.querySelectorAll('.state-card').forEach(c => { const m = !ql || c.dataset.state.includes(ql); c.classList.toggle('hidden',!m); if(m) any=true; });
+  document.querySelectorAll('.region-block').forEach(b => { const v = [...b.querySelectorAll('.state-card')].some(c=>!c.classList.contains('hidden')); b.classList.toggle('hidden',!v); });
+  document.getElementById('noRes').classList.toggle('visible', ql && !any);
+  if(ql) document.querySelectorAll('.rtab').forEach(t=>t.classList.remove('active'));
+});
+clr.addEventListener('click', () => {
+  inp.value=''; clr.classList.remove('vis'); res.classList.remove('open');
+  document.querySelectorAll('.state-card').forEach(c=>c.classList.remove('hidden'));
+  document.querySelectorAll('.region-block').forEach(b=>b.classList.remove('hidden'));
+  document.getElementById('noRes').classList.remove('visible');
+  inp.focus();
+});
+document.addEventListener('click', e => { if(!e.target.closest('.search-wrap')) res.classList.remove('open'); });
+document.querySelectorAll('.rtab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.rtab').forEach(t=>t.classList.remove('active'));
+    tab.classList.add('active');
+    const r = tab.dataset.region;
+    document.querySelectorAll('.region-block').forEach(b => { b.classList.toggle('hidden', r!=='all' && b.dataset.region!==r); });
+    document.querySelectorAll('.state-card').forEach(c=>c.classList.remove('hidden'));
+  });
+});
+</script>
+</body>
+</html>
